@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Rob Filmes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório da Single Page Application (SPA) de Filmes desenvolvida em React, utilizando a API TMDB (The Movie Database). Este projeto foi criado como parte do meu estudo em React e será incluído no meu portfólio pessoal.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+O objetivo deste projeto é criar uma SPA que permite aos usuários explorar informações sobre filmes em cartaz, utilizando a API TMDB para obter dados precisos e atualizados.
 
-### `npm start`
+## Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de começar, certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo [aqui](https://nodejs.org/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Configuração do Projeto
 
-### `npm test`
+1. Clone este repositório em sua máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone git@github.com:RobsonFe/Rob-Filmes-React.git
+   ```
 
-### `npm run build`
+2. Navegue até o diretório do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd robfilme
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependências:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+## Configuração da API TMDB
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Acesse [TMDB Developer](https://www.themoviedb.org/settings/api) para obter uma chave de API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. No diretório do projeto, crie um arquivo `.env` e adicione a chave da API:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```env
+   REACT_APP_TMDB_API_KEY=SuaChaveTMDB
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Rodando a Aplicação
 
-## Learn More
+Para iniciar a aplicação localmente, utilize o seguinte comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão.
 
-### Code Splitting
+## Recursos e Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Página Inicial:** Visualize os filmes em cartaz atualmente.
+- **Detalhes do Filme:** Clique em um filme para obter mais informações, como sinopse, elenco, classificação, etc.
+- **Navegação:** Utilize as rotas para explorar diferentes seções da aplicação.
 
-### Analyzing the Bundle Size
+## Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- React Router
+- TMDB API
 
-### Making a Progressive Web App
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar esta aplicação.
 
-### Advanced Configuration
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-### Deployment
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo. Meu e-mail é [robson-ferreiradasilva@hotmail.com](mailto:robson-ferreiradasilva@hotmail.com). Você também pode conferir outros projetos no meu [GitHub](https://github.com/RobsonFe). Obrigado por visitar!
