@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+
+
 import RoutesApp from "./Routes/RoutesApp";
 
 

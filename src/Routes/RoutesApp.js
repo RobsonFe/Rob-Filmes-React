@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
