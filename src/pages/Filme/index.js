@@ -43,6 +43,24 @@ function Filme() {
 
   },[navigate, id]);
 
+  function salvarFilme(){
+    
+    const minhaLista = localStorage.getItem("@robfilme");
+
+    let filmesSalvos = JSON.parse(minhaLista) || [];
+
+    const hasFilme = filmesSalvos.some((filmesSalvos) => filmesSalvos.id === filme.id )
+
+    if(hasFilme){
+      alert("Esse filme já tem na sua lista")
+      return;
+    }
+
+    filmesSalvos.push(filme);
+    localStorage.setItem("@robfilme",JSON.stringify(filmesSalvos))
+    alert("Filme Salvo com sucesso!")
+  }
+
 
   if(loading){
     return(
@@ -66,9 +84,9 @@ function Filme() {
 
       <div className='area-btn'>
 
-      <button >Salvar</button>
+      <button onClick={salvarFilme} >Salvar</button>
       <button>
-        <a target='_blank' rel='external' href={`https://youtube.com/results?search_query=${filme.title} trailer`}>
+        <a target='blank' rel='external' href={`https://youtube.com/results?search_query=${filme.title} trailer`}>
           Trailer
         </a>
       </button>
