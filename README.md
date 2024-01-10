@@ -6,50 +6,6 @@ Bem-vindo ao repositório da Single Page Application (SPA) de Filmes desenvolvid
 
 O objetivo deste projeto é criar uma SPA que permite aos usuários explorar informações sobre filmes em cartaz, utilizando a API TMDB para obter dados precisos e atualizados.
 
-## Pré-requisitos
-
-Antes de começar, certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo [aqui](https://nodejs.org/).
-
-## Configuração do Projeto
-
-1. Clone este repositório em sua máquina local:
-
-   ```bash
-   git clone git@github.com:RobsonFe/Rob-Filmes-React.git
-   ```
-
-2. Navegue até o diretório do projeto:
-
-   ```bash
-   cd robfilme
-   ```
-
-3. Instale as dependências:
-
-   ```bash
-   npm install
-   ```
-
-## Configuração da API TMDB
-
-1. Acesse [TMDB Developer](https://www.themoviedb.org/settings/api) para obter uma chave de API.
-
-2. No diretório do projeto, crie um arquivo `.env` e adicione a chave da API:
-
-   ```env
-   REACT_APP_TMDB_API_KEY=SuaChaveTMDB
-   ```
-
-## Rodando a Aplicação
-
-Para iniciar a aplicação localmente, utilize o seguinte comando:
-
-```bash
-npm start
-```
-
-Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão.
-
 ## Recursos e Funcionalidades
 
 - **Página Inicial:** Visualize os filmes em cartaz atualmente.
