@@ -62,9 +62,9 @@ Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu nave
 - React Router
 - TMDB API
 
-## Contribuições
+## Veja o meu Projeto Online
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar esta aplicação.
+[Veja o projeto online](https://robfilmes.netlify.app/)
 
 ## Licença
 
